@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CCExtractor GUI 0.1</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>7</number>
+      </property>
+      <widget class="QWidget" name="input_file">
+       <attribute name="title">
+        <string>Input Files</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="input_op">
+       <attribute name="title">
+        <string>Input Options</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="adv_inp">
+       <attribute name="title">
+        <string>Advanced Input Options</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="out">
+       <attribute name="title">
+        <string>Output</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="debug">
+       <attribute name="title">
+        <string>Debug</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="decoder">
+       <attribute name="title">
+        <string>Decoder</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="exec">
+       <attribute name="title">
+        <string>Execution</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="abt">
+       <attribute name="title">
+        <string>About &amp;&amp; Save</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
